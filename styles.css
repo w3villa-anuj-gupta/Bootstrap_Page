@@ -43,9 +43,13 @@
 
 .contact input,
 .contact textarea {
-  background: #333;
+  background: #646464;
   border: none;
-  color: #fff;
+  color: white;
+}
+::placeholder {
+  color: #ddd !important;
+  opacity: 1 !important;
 }
 
 footer {
@@ -53,4 +57,17 @@ footer {
   color: #aaa;
   text-align: center;
   padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .offer-images {
+    height: 180px !important;
+    width: 220px !important;
+  }
+  .offer-images img {
+    width: 90px !important;
+    left: 20px !important;
+    top: unset !important;
+    bottom: 0 !important;
+  }
 }
