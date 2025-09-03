@@ -27,12 +27,13 @@
 
 .stats {
   background: #f8f9fa;
-  padding: 50px 0;
+  padding: 100px 50px;
 }
 
 .stats h3 {
   font-size: 2rem;
   font-weight: bold;
+  color: #a8d5a2;
 }
 
 .contact {
@@ -55,8 +56,22 @@
 footer {
   background: #111;
   color: #aaa;
-  text-align: center;
   padding: 20px 0;
+}
+
+.social-media a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+    color: black;
+    font-size: 16px;
+    border-radius: 50%;
+    background: #fff;
+    text-decoration: none;
+    background-color: #a8d5a2;
 }
 
 @media (max-width: 768px) {
